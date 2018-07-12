@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ServiceModel.Cancellation</id>
+    <version>1.0.0</version>
+    
+    <authors>Max Ieremenko</authors>
+    <owners>Max Ieremenko</owners>
+    <copyright>(C) 2018 Max Ieremenko.</copyright>
+
+    <licenseUrl>https://github.com/max-ieremenko/ServiceModel.Cancellation/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/max-ieremenko/ServiceModel.Cancellation</projectUrl>
+    <releaseNotes>https://github.com/max-ieremenko/ServiceModel.Cancellation/releases</releaseNotes>
+
+    <language>en-US</language>
+
+    <summary>CancellationToken support for WCF.</summary>
+    <description>
+      ServiceModel.Cancellation is a library for .Net. Allows to propagate notifications from CancellationToken from client to service side.
+      Supported platforms:
+      - .NET Framework 4.5.2+
+    </description>
+    <tags>WCF Cancellation CancellationToken</tags>
+    
+    <dependencies>
+      <group targetFramework="net452" />
+    </dependencies>
+
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.ServiceModel"
+                         targetFramework="net452" />
+    </frameworkAssemblies>
+  </metadata>
+
+  <files>
+    <file src="build.out\ServiceModel.Cancellation.dll"
+          target="lib\net452" />
+    <file src="build.out\ServiceModel.Cancellation.pdb"
+          target="lib\net452" />
+  </files>
+</package>

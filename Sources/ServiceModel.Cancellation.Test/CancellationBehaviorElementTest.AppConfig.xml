@@ -1,0 +1,24 @@
+﻿<configuration>
+  <system.serviceModel>
+    <behaviors>
+      <endpointBehaviors>
+        <behavior name="empty">
+          <useCancellation />
+        </behavior>
+
+        <behavior name="clientOptions">
+          <useCancellation>
+            <clientOptions contractFactory="ServiceModel.Cancellation.CancellationBehaviorElementTest.SomeContractFactory, ServiceModel.Cancellation.Test" />
+          </useCancellation>
+        </behavior>
+      </endpointBehaviors>
+    </behaviors>
+
+    <extensions>
+      <behaviorExtensions>
+        <add name="useCancellation"
+             type="ServiceModel.Cancellation.CancellationBehaviorElement, ServiceModel.Cancellation"/>
+      </behaviorExtensions>
+    </extensions>
+  </system.serviceModel>
+</configuration>
