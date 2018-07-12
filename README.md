@@ -63,14 +63,13 @@ using (var clientFactory = new ChannelFactory<IDemoService>())
 - each service has to be pre-configured to support cancellation
 - your environment has to host entry point ([see CancellationContractService](https://github.com/max-ieremenko/ServiceModel.Cancellation/blob/master/Sources/ServiceModel.Cancellation/Service/CancellationContractService.cs))) to accept cancellation requests from client
 
-https://github.com/max-ieremenko/SqlDatabase/blob/master/Examples/CSharpMirationStep/SqlDatabaseScript.cs
 #### Client-side
 - each client channel has to be pre-configured to support cancellation
 - to pass cancellation requests to service [CancellationContractClient](https://github.com/max-ieremenko/ServiceModel.Cancellation/blob/master/Sources/ServiceModel.Cancellation/Client/CancellationContractClient.cs) will be used by default
 
 ## Examples
-- [CodeConfiguration](https://github.com/max-ieremenko/ServiceModel.Cancellation/blob/master/Sources/Examples/CodeConfiguration) demonstrates how to configure ServiceModel.Cancellation in code
-- [FileConfiguration](https://github.com/max-ieremenko/ServiceModel.Cancellation/blob/master/Sources/Examples/FileConfiguration) demonstrates how to configure ServiceModel.Cancellation in application configuration file.
+- [CodeConfiguration](https://github.com/max-ieremenko/ServiceModel.Cancellation/blob/master/Sources/Examples/CodeConfiguration) demonstrates how to configure ServiceModel.Cancellation from code
+- [FileConfiguration](https://github.com/max-ieremenko/ServiceModel.Cancellation/blob/master/Sources/Examples/FileConfiguration) demonstrates how to configure ServiceModel.Cancellation from application configuration file.
 
 ## License
 This tool is distributed under the [MIT](https://github.com/max-ieremenko/ServiceModel.Cancellation/tree/master/LICENSE) license.
