@@ -101,12 +101,6 @@
     <Compile Include="Service\ServiceTokenManagerTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ServiceModel.Cancellation\ServiceModel.Cancellation.csproj">
-      <Project>{5eb9caf8-7d01-46cc-bf49-d6a6e90bc879}</Project>
-      <Name>ServiceModel.Cancellation</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
@@ -118,6 +112,12 @@
     <EmbeddedResource Include="CancellationBehaviorElementTest.AppConfig.xml">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ServiceModel.Cancellation\ServiceModel.Cancellation.csproj">
+      <Project>{987dd035-e267-43e3-8cbd-e855a924ba0b}</Project>
+      <Name>ServiceModel.Cancellation</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
