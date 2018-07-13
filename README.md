@@ -1,5 +1,7 @@
 # ServiceModel.Cancellation library for .Net 
-CancellationToken support for WCF.
+Support of CancellationToken for WCF. Allows to propagate notifications from CancellationToken from client to service side.
+
+[![Version](https://img.shields.io/nuget/v/ServiceModel.Cancellation.svg)](https://www.nuget.org/packages/ServiceModel.Cancellation)
 
 #### Supported platforms
 [.NET Framework 4.5.2](https://www.microsoft.com/en-us/download/details.aspx?id=42642) or higher.
