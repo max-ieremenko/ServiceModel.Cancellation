@@ -15,21 +15,21 @@
 
     <language>en-US</language>
 
-    <summary>CancellationToken support for WCF.</summary>
+    <summary>Support of CancellationToken for WCF.</summary>
     <description>
       ServiceModel.Cancellation is a library for .Net. Allows to propagate notifications from CancellationToken from client to service side.
       Supported platforms:
       - .NET Framework 4.5.2+
     </description>
     <tags>WCF Cancellation CancellationToken</tags>
-    
+
     <dependencies>
-      <group targetFramework="net452" />
+      <group targetFramework=".NETFramework4.5.2" />
     </dependencies>
 
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System.ServiceModel"
-                         targetFramework="net452" />
+                         targetFramework=".NETFramework4.5.2" />
     </frameworkAssemblies>
   </metadata>
 
