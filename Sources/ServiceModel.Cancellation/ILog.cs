@@ -1,6 +1,6 @@
 ﻿namespace ServiceModel.Cancellation
 {
-    public interface ILog
+    internal interface ILog
     {
         bool IsDebugEnabled { get; }
 
