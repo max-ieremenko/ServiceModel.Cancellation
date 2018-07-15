@@ -21,7 +21,13 @@
       Supported platforms:
       - .NET Framework 4.5.2+
     </description>
-    <tags>WCF Cancellation CancellationToken</tags>
+    <tags>
+      WCF-Cancellation
+      WCF-CancellationToken
+      CancellationToken
+      ServiceModel-Cancellation
+      System-ServiceModel-Cancellation
+    </tags>
 
     <dependencies>
       <group targetFramework=".NETFramework4.5.2" />
